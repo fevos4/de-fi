@@ -1,0 +1,39 @@
+.hero{
+    height: 90vh;
+    width: 100%;
+    top: 90px;
+    object-fit: contain;
+    color: #f4eeff;
+    text-transform: capitalize;
+}
+#video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.hero .hero-text{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+.hero p{
+    font-size: 1.4rem;
+}
+.btn{
+    margin: 1rem;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+.bottom-text h2{
+    font-size: 1.6rem;
+    text-align: center;
+}
